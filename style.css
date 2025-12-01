@@ -39,3 +39,27 @@
     --space-1600: 128px;
     
 }
+
+@font-face {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 600;
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 400;
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 700;
+    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf');
+}
