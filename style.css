@@ -78,13 +78,13 @@ html {
     
     font-family: 'Outfit';
     font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
+    font-size: var(--font-size-160);
+    line-height: var(--line-height-150);
     color: var(--stone-600);
 
     display: flex;
     flex-direction: column;
-    margin-top: 128px;
+    margin-top: var(--space-1600);
 }
 
 .recipe-image {
@@ -101,6 +101,6 @@ html {
 }
 
 .recipe-subtitle {
-    font-size: 16px;
+    font-size: var(--font-size-160);
     font-weight: 400;
 }
