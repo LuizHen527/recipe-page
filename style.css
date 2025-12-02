@@ -78,5 +78,12 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: var(--stone-600)
+    color: var(--stone-600);
+
+    display: flex;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 12px;
 }
