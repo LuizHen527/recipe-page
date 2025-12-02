@@ -112,6 +112,8 @@ html {
     font-weight: 400;
 }
 
+/* Prep time section */
+
 .prep-time-container {
     background-color: var(--rose-50);
     padding: var(--space-300);
