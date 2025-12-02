@@ -111,3 +111,32 @@ html {
     font-size: var(--font-size-160);
     font-weight: 400;
 }
+
+.prep-time-container {
+    background-color: var(--rose-50);
+    padding: var(--space-300);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-200);
+    margin-top: var(--space-400);
+}
+
+.prep-time-container h2 {
+    color: var(--rose-800);
+}
+
+.prep-time-container ul {
+    list-style: none;
+}
+
+.prep-time-container li::before {
+    content: "• ";
+    color: var(--rose-800);
+}
+
+.prep-time-container li span {
+    position: relative;
+    left: var(--font-size-160);
+}
