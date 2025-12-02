@@ -66,6 +66,8 @@
 
 html {
     background-color: var(--stone-100);
+    display: flex;
+    justify-content: center;
 }
 
 .card-div {
@@ -82,6 +84,7 @@ html {
 
     display: flex;
     flex-direction: column;
+    margin-top: 128px;
 }
 
 .recipe-image {
