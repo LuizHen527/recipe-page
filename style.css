@@ -150,6 +150,7 @@ h2 {
 .prep-time-container li::before {
     content: "• ";
     color: var(--rose-800);
+    font-weight: bold;
 }
 
 .prep-time-container li span {
@@ -174,11 +175,13 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: var(--space-150);
+    padding-left: 8px;
 }
 
 .ingredients-container li::before {
     content: "• ";
     color: var(--brown-800);
+    font-weight: bold;
 }
 
 .ingredients-container span {
@@ -192,3 +195,26 @@ h2 {
     padding: var(--space-400) 0;
     border-bottom: 1px solid var(--stone-150);
 }
+
+.instructions-container h2 {
+    margin-bottom: var(--space-300);
+}
+
+.instructions-container li::marker {
+    color: var(--brown-800);
+    font-weight: bold;
+}
+
+.instructions-container ol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-100);
+    padding-left: 30px;
+}
+
+.instructions-container span {
+    position: relative;
+    left: var(--space-150);
+}
+
+/* Deletar style spacing de ingredients. Refaz tentando deixar tudo igual */
