@@ -20,7 +20,7 @@
 
     /* Typography */
     --font-size-160: 16px;
-    --font-size-200: 20xp;
+    --font-size-200: 20px;
     --font-size-280: 28px;
     --font-size-400: 40px;
 
@@ -68,6 +68,14 @@ html {
     background-color: var(--stone-100);
     display: flex;
     justify-content: center;
+}
+
+h2 {
+    font-family: 'Young Serif';
+    font-size: var(--font-size-280);
+    font-weight: 400;
+    line-height: var(--line-height-100);
+    color: var(--brown-800);
 }
 
 .card-div {
@@ -128,6 +136,8 @@ html {
 .prep-time-container h2 {
     color: var(--rose-800);
     font-weight: 600;
+    font-family: 'Outfit';
+    font-size: var(--font-size-200);
 }
 
 .prep-time-container ul {
@@ -155,16 +165,8 @@ html {
     flex-direction: column;
     gap: var(--space-300);
 
-    padding-bottom: 32px;
+    padding-bottom: var(--space-400);
     border-bottom: 1px solid var(--stone-150);
-}
-
-.ingredients-container h2 {
-    font-family: 'Young Serif';
-    font-size: var(--font-size-280);
-    font-weight: 400;
-    line-height: var(--line-height-100);
-    color: var(--brown-800);
 }
 
 .ingredients-container ul {
@@ -182,4 +184,11 @@ html {
 .ingredients-container span {
     position: relative;
     left: var(--space-400);
+}
+
+/* Instructions */
+
+.instructions-container {
+    padding: var(--space-400) 0;
+    border-bottom: 1px solid var(--stone-150);
 }
