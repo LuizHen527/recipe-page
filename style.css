@@ -132,6 +132,9 @@ html {
 
 .prep-time-container ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-150);
 }
 
 .prep-time-container li::before {
@@ -141,7 +144,7 @@ html {
 
 .prep-time-container li span {
     position: relative;
-    left: var(--font-size-160);
+    left: var(--space-400);
 }
 
 /* Ingredients */
@@ -151,6 +154,9 @@ html {
     display: flex;
     flex-direction: column;
     gap: var(--space-300);
+
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--stone-150);
 }
 
 .ingredients-container h2 {
@@ -159,4 +165,21 @@ html {
     font-weight: 400;
     line-height: var(--line-height-100);
     color: var(--brown-800);
+}
+
+.ingredients-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-150);
+}
+
+.ingredients-container li::before {
+    content: "• ";
+    color: var(--brown-800);
+}
+
+.ingredients-container span {
+    position: relative;
+    left: var(--space-400);
 }
