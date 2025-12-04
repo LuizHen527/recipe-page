@@ -171,23 +171,22 @@ h2 {
 }
 
 .ingredients-container ul {
-    list-style: none;
     display: flex;
     flex-direction: column;
-    gap: var(--space-150);
-    padding-left: 8px;
+    gap: var(--space-100);
+    padding-left: 30px;
 }
 
-.ingredients-container li::before {
-    content: "• ";
+.ingredients-container li::marker {
     color: var(--brown-800);
     font-weight: bold;
 }
 
 .ingredients-container span {
     position: relative;
-    left: var(--space-400);
+    left: var(--space-150);
 }
+
 
 /* Instructions */
 
