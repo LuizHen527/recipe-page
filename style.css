@@ -92,7 +92,7 @@ h2 {
 
     display: flex;
     flex-direction: column;
-    margin-top: var(--space-1600);
+    margin: var(--space-1600) 0;
 }
 
 .recipe-image {
@@ -216,4 +216,37 @@ h2 {
     left: var(--space-150);
 }
 
-/* Deletar style spacing de ingredients. Refaz tentando deixar tudo igual */
+/* Nutrition */
+
+.nutrition-container {
+    margin-top: var(--space-400);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-300);
+}
+
+.nutrition-container tbody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.nutrition-container tr {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--stone-150);
+}
+
+.nutrition-container tr:last-child {
+    border-bottom: none;
+}
+
+.table-item-left {
+    font-weight: bold;
+    color: var(--brown-800);
+}
+
+.nutrition-container td {
+    padding-left: var(--space-400);
+    width: 100%;
+}
