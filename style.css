@@ -96,7 +96,8 @@ h2 {
 }
 
 .recipe-image {
-    width: 100%;
+    display: block;
+    max-width: 100%;
     border-radius: 12px;
 }
 
@@ -249,4 +250,8 @@ h2 {
 .nutrition-container td {
     padding-left: var(--space-400);
     width: 100%;
+}
+
+@media screen {
+    
 }
